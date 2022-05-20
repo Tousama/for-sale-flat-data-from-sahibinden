@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import time
 import constants
+import pandas as pd
 
 URL = constants.url
 HEADERS = constants.headers
@@ -72,3 +73,9 @@ for page in range(50):
     time.sleep(50)
 
 print(new_data_list)
+
+#####################################################################################
+#   Listelenen veriyi DataFrame'e donusturmek ve dataframe'i csv formatında kaydetmek
+#####################################################################################
+df = pd.DataFrame(new_data_list)
+df.to_csv("sahibinden_ev.csv")
