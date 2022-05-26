@@ -52,3 +52,9 @@ cities = ["istanbul", "ankara", "izmir", "adana", "adiyaman", "afyonkarahisar", 
           "kirsehir", "kilis", "kocaeli", "konya", "kutahya", "malatya", "manisa", "mardin", "mersin", "mugla", "mus",
           "nevsehir", "nigde", "ordu", "osmaniye", "rize", "sakarya", "samsun", "siirt", "sinop", "sivas", "sanliurfa",
           "sirnak", "tekirdag", "tokat", "trabzon", "tunceli", "usak", "van", "yalova", "yozgat", "zonguldak"]
+
+towns = ["adalar", "arnavutkoy", "atasehir", "bagcilar", "bakirkoy", "basaksehir", "bayrampasa", "besiktas", "beykoz",
+        "beylikduzu", "beyoglu", "buyukcekmece", "catalca", "cekmekoy", "esenler", "esenyurt", "eyupsultan", "fatih",
+        "gaziosmanpasa", "gungoren", "kadıkoy", "kagıthane", "kartal", "kucukcekmece", "maltepe", "pandik",
+        "sancaktepe", "sariyer", "sile", "silivri", "sisli", "sultanbeyli", "sultangazi", "tuzla", "umraniye",
+        "uskudar", "zeytinburnu"]
