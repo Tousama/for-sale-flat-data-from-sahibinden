@@ -1,4 +1,5 @@
 url = "https://www.sahibinden.com/satilik-daire"
+url2 = "https://www.sahibinden.com/kiralik-daire"
 
 headers = {
     'authority':'www.realestate.com.au',
