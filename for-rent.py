@@ -60,7 +60,11 @@ for town in TOWNS:
                 data_dict["area"] = data[index][1]
                 new_data = data[index][2].split(" ")
                 data_dict["numberOfRooms"] = new_data[0]
-                data_dict["price"] = new_data[1]
+                if data_dict["numberOfRooms"] == "Stüdyo":
+                    data_dict["numberOfRooms"] = new_data[1][1:-1]
+                    data_dict["price"] = new_data[2]
+                else:
+                    data_dict["price"] = new_data[1]
                 for i in range(1, len(data[index][-1])):
                     if data[index][-1][i] == data[index][-1][i].upper():
                         data_dict["town"] = data[index][-1][:i]
